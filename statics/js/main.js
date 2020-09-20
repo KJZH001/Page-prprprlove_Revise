@@ -13,7 +13,7 @@ function switchTo(target){
     });
     $(target).addClass('active');
 }
-
+/*
 function getAchives(){
     t = ``;
     $.ajax({
@@ -31,6 +31,7 @@ function getAchives(){
         }
     })
 }
+*/
 
 function gethitokoto(){
     $.ajax({
